@@ -12,14 +12,12 @@ header{
     display: flex;
   align-items: center;
   padding: 1.875em;
-  
+  justify-content: space-between;
   
    
 }
 
-nav{
-    justify-self: flex-end;
-}
+
 
 nav ul{
     display: flex;
@@ -31,4 +29,33 @@ nav ul{
 nav ul li{padding-left: 3rem;
     font-weight: bold;
     
+}
+
+main, footer{
+    padding: 1.875rem;
+}
+
+#intro{
+    padding-bottom: 1.875rem;
+}
+
+#intro h2{
+    padding-bottom: 2rem;
+}
+img{
+    width: 50%;
+    
+}
+
+#projects h2{
+    padding-bottom: 2rem;
+}
+#projects li{
+    padding: 2rem;
+    font-weight: bold;
+}
+
+#projects li p{
+    padding: 2rem;
+    font-weight: bold;
 }
